@@ -1,0 +1,43 @@
+
+# Facebook Phishing Page Simulation (Using SET on Kali Linux)
+
+## Overview
+This project demonstrates how phishing attacks work using the Social-Engineer Toolkit (SET) on Kali Linux.
+It is created **strictly for educational and ethical hacking training purposes**.
+
+## Tools Used
+- Kali Linux
+- Social-Engineer Toolkit (SET)
+- Apache Server (for hosting the phishing page)
+
+## Objective
+To clone the Facebook login page and collect test credentials to simulate a phishing attack and understand user-level vulnerabilities.
+
+## Steps Followed
+
+1. Opened SET on Kali:
+    ```bash
+    sudo setoolkit
+    ```
+
+2. Navigated through the following options:
+    - 1) Social-Engineering Attacks
+    - 2) Website Attack Vectors
+    - 3) Credential Harvester Attack Method
+    - 2) Site Cloner
+
+3. Entered cloning target:
+    ```
+    https://www.facebook.com
+    ```
+
+4. Hosted the phishing page locally using Apache.
+5. Captured test credentials from the cloned page.
+
+## Educational Purpose
+- This project helps raise awareness of social engineering threats.
+- Never use these techniques on real users or systems without authorization.
+
+## Author
+**Amr Moataz Ragab Ammar**  
+GitHub: [https://github.com/Amm0t3az](https://github.com/Amm0t3az)
